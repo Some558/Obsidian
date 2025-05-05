@@ -11,14 +11,14 @@
             "id": "e6e0dc106ef246aa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Clippings/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Clippings/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
+                "bFile": "Clippings/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事"
+              "icon": "diff",
+              "title": "Diff: 「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事"
             }
           }
         ]
@@ -176,12 +176,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e6e0dc106ef246aa",
+  "active": "93eab58694858939",
   "lastOpenFiles": [
+    "Blog",
+    "Clippings/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
+    "README.md",
     "新規 テキスト ドキュメント.txt",
     "Obsidian/無題のファイル.md",
-    "README.md",
-    "Clippings/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
     "Clippings",
     "capture/03_published",
     "capture/02_doing",
