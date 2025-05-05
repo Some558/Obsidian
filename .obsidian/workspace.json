@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Programming/JavaScript/JavaScriptチートシート.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "JavaScriptチートシート"
             }
           }
         ],
@@ -222,6 +222,7 @@
   },
   "active": "45602b8d366a8c52",
   "lastOpenFiles": [
+    "README.md",
     "Programming/C＃/LINQ特化チートシート.md",
     "Programming/JavaScript/JavaScriptチートシート.md",
     "conflict-files-obsidian-git.md",
@@ -235,7 +236,6 @@
     "Programming/C＃/C＃チートシート.md",
     "Programming/C＃",
     "Programming",
-    "README.md",
     "Clippings",
     "capture/02_doing",
     "capture/01_idea",
