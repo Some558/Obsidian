@@ -49,48 +49,6 @@
               "icon": "diff",
               "title": "Diff: workspace.json"
             }
-          },
-          {
-            "id": "00b86412923ba64b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/React リファレンス概要 – React.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "React リファレンス概要 – React"
-            }
-          },
-          {
-            "id": "c9446ac643bd288d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/C＃/C＃チートシート.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C＃チートシート"
-            }
-          },
-          {
-            "id": "4d64e8be1afc21d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/C＃/LINQ特化チートシート.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LINQ特化チートシート"
-            }
           }
         ],
         "currentTab": 2
@@ -235,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 594.5
+    "width": 398.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,22 +206,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d64e8be1afc21d3",
+  "active": "849a15d26ef230ba",
   "lastOpenFiles": [
-    "Programming/C＃/C＃チートシート.md",
-    "Programming/C＃/LINQ特化チートシート.md",
-    "Programming/C＃",
-    "Clippings/React リファレンス概要 – React.md",
-    "Programming",
-    "Clippings/React.md",
+    "conflict-files-obsidian-git.md",
     "Clippings/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
-    "Clippings/React リファレンス概要 – React 1.md",
-    "React公式",
-    "Blog",
-    "README.md",
-    "新規 テキスト ドキュメント.txt",
-    "Obsidian/無題のファイル.md",
-    "Clippings",
+    "Clippings/React リファレンス概要 – React.md",
+    "Clippings/React.md",
+    "capture/03_published/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
     "capture/03_published",
     "capture",
     "Programming/C＃/LINQ特化チートシート.md",
@@ -277,6 +226,7 @@
     "capture/01_idea",
     "Clippings/note",
     "Welcome.md",
-    "今日の予定.md"
+    "今日の予定.md",
+    "desktop.ini"
   ]
 }
