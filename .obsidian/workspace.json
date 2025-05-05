@@ -154,8 +154,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "アクティブでなくなったプラグイン"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -163,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 623.5
+    "width": 241.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,14 +172,17 @@
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false
+      "command-palette:コマンドパレットを開く": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e6e0dc106ef246aa",
+  "active": "93eab58694858939",
   "lastOpenFiles": [
+    "新規 テキスト ドキュメント.txt",
+    "Obsidian/無題のファイル.md",
+    "README.md",
     "Clippings/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
     "Clippings",
-    "README.md",
     "capture/03_published",
     "capture/02_doing",
     "capture/01_idea",
