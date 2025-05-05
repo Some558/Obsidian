@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
+                "file": "capture/03_published/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
                 "mode": "source",
                 "source": false
               },
@@ -163,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 623.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,12 +179,12 @@
   "active": "e6e0dc106ef246aa",
   "lastOpenFiles": [
     "Clippings/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
-    "Clippings",
     "README.md",
+    "Clippings",
     "capture/03_published",
     "capture/02_doing",
     "capture/01_idea",
-    "note",
+    "Clippings/note",
     "capture",
     "Welcome.md",
     "今日の予定.md",
