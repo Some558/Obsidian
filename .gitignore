@@ -22,3 +22,6 @@ credentials.md
 
 
 # 特定のファイルを除外
+
+# OR only to exclude workspace cache
+.obsidian/workspace.json
