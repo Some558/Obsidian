@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScriptチートシート.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScriptチートシート"
+              "title": "README"
             }
           }
         ],
@@ -222,7 +222,8 @@
   },
   "active": "45602b8d366a8c52",
   "lastOpenFiles": [
-    "JavaScriptチートシート.md",
+    "Programming/C＃/LINQ特化チートシート.md",
+    "Programming/JavaScript/JavaScriptチートシート.md",
     "conflict-files-obsidian-git.md",
     "Clippings/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
     "Clippings/React リファレンス概要 – React.md",
@@ -230,7 +231,6 @@
     "capture/03_published/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
     "capture/03_published",
     "capture",
-    "Programming/C＃/LINQ特化チートシート.md",
     "Programming/JavaScript",
     "Programming/C＃/C＃チートシート.md",
     "Programming/C＃",
