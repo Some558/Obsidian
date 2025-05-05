@@ -11,14 +11,14 @@
             "id": "e6e0dc106ef246aa",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Clippings/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
-                "bFile": "Clippings/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
-                "aRef": ""
+                "file": "Clippings/React リファレンス概要 – React.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事"
+              "icon": "lucide-file",
+              "title": "React リファレンス概要 – React"
             }
           }
         ]
@@ -176,10 +176,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93eab58694858939",
+  "active": "e6e0dc106ef246aa",
   "lastOpenFiles": [
-    "Blog",
+    "Clippings/React リファレンス概要 – React 1.md",
+    "Clippings/React リファレンス概要 – React.md",
+    "Clippings/React.md",
     "Clippings/「AIがあるんだからもっと安く早く作れるでしょ？」と非エンジニアに言われた時に読む（読んでもらう）記事.md",
+    "React公式",
+    "Blog",
     "README.md",
     "新規 テキスト ドキュメント.txt",
     "Obsidian/無題のファイル.md",
