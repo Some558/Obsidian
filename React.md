@@ -20,3 +20,34 @@ export const App = () => {
   );
 
 };
+
+### Reactでのスタイルの当て方
+export const App = () => {
+
+  const onClickButton = () => alert();
+
+  const contentStyle = {
+
+    color: 'blue',
+
+    fontSize: '18px',
+
+    margin: 10,
+
+  };
+
+  return (
+
+    <>
+
+      <h1 style={{ color: 'red' }}>こんにちは</h1>
+
+      <p style={contentStyle}>お元気ですか</p>
+
+      <button onClick={onClickButton}>ボタン</button>
+
+    </>
+
+  );
+
+};
