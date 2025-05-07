@@ -126,12 +126,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/C＃/ASP.NET Razor Pages データベース関連チートシート.md",
+                "file": "Programming/C＃/Entity Framework Core の Migration コマンド（NuGetパッケージマネージャーコンソール版）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ASP.NET Razor Pages データベース関連チートシート"
+              "title": "Entity Framework Core の Migration コマンド（NuGetパッケージマネージャーコンソール版）"
             }
           }
         ],
@@ -294,7 +294,7 @@
   "lastOpenFiles": [
     "Programming/JavaScript/React学習.md",
     "Programming/JavaScript/JavaScriptチートシート.md",
-    "Programming/C＃/ASP.NET Razor Pages データベース関連チートシート.md",
+    "Programming/C＃/Entity Framework Core の Migration コマンド（NuGetパッケージマネージャーコンソール版）.md",
     "Programming/C＃/ASP.NET 共通チートシート.md",
     "Programming/C＃/ASP.NET Razor Pages チートシート.md",
     "Markdown記法の文法.md",
