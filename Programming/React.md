@@ -1,4 +1,5 @@
 ### Reactでのイベントの当て方
+```javaScript
 export const App = () => {
 
   const onClickButton = () => alert();
@@ -20,8 +21,11 @@ export const App = () => {
   );
 
 };
+```
+
 
 ### Reactでのスタイルの当て方
+```javaScript
 export const App = () => {
 
   const onClickButton = () => alert();
@@ -51,3 +55,4 @@ export const App = () => {
   );
 
 };
+```
