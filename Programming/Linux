@@ -1,0 +1,106 @@
+日常的に役立つLinuxコマンドをカテゴリ別にまとめました。macとWindowsで違いがある場合は併記しています。
+
+## ファイル・ディレクトリ操作
+
+**基本操作**
+- `ls` / `ls -la` - ファイル一覧表示（詳細表示）
+- `cd` - ディレクトリ移動
+- `pwd` - 現在のディレクトリパス表示
+- `mkdir` - ディレクトリ作成
+- `rmdir` - 空ディレクトリ削除
+- `rm` / `rm -rf` - ファイル削除（再帰削除）
+- `cp` / `cp -r` - ファイルコピー（ディレクトリコピー）
+- `mv` - ファイル移動・リネーム
+
+**便利なファイル操作**
+- `find . -name "*.txt"` - ファイル検索
+- `locate filename` - ファイル高速検索（macは要updatedb）
+- `du -sh *` - ディレクトリサイズ表示
+- `df -h` - ディスク使用量表示
+- `tree` - ディレクトリ構造を階層表示
+
+## テキスト処理・表示
+
+**ファイル内容表示**
+- `cat` - ファイル全体表示
+- `less` / `more` - ページ単位でファイル表示
+- `head -n 10` - ファイル先頭10行表示
+- `tail -n 10` - ファイル末尾10行表示
+- `tail -f` - ファイル末尾をリアルタイム監視
+
+**テキスト検索・操作**
+- `grep "pattern" file` - テキスト検索
+- `grep -r "pattern" .` - 再帰的に検索
+- `sed 's/old/new/g' file` - テキスト置換
+- `awk '{print $1}' file` - 列データ抽出
+- `sort` / `uniq` - ソート・重複除去
+- `wc -l file` - 行数カウント
+
+## プロセス・システム管理
+
+**プロセス管理**
+- `ps aux` - 全プロセス表示
+- `top` / `htop` - リアルタイムプロセス監視
+- `kill PID` - プロセス終了
+- `killall process_name` - プロセス名で終了
+- `nohup command &` - バックグラウンド実行
+
+**システム情報**
+- `uname -a` - システム情報表示
+- `uptime` - システム稼働時間
+- `free -h` - メモリ使用量（Linux）
+- macの場合: `vm_stat` - メモリ使用量
+- `lscpu` - CPU情報（Linux）
+- macの場合: `sysctl -n machdep.cpu.brand_string`
+
+## ネットワーク
+
+**基本コマンド**
+- `ping google.com` - 接続テスト
+- `curl -I url` - HTTP ヘッダー取得
+- `wget url` - ファイルダウンロード
+- macの場合: `curl -O url`
+- `netstat -tuln` - ポート使用状況
+
+**SSH・リモート**
+- `ssh user@host` - SSH接続
+- `scp file user@host:/path` - ファイル転送
+- `rsync -av source/ dest/` - 同期コピー
+
+## 便利な組み合わせ・応用
+
+**パイプ活用**
+- `ls -la | grep txt` - txtファイルのみ表示
+- `ps aux | grep python` - Pythonプロセス検索
+- `history | grep git` - Git履歴検索
+- `cat file | sort | uniq -c` - ソート後に重複カウント
+
+**ショートカット・履歴**
+- `!!` - 直前のコマンド再実行
+- `!$` - 直前コマンドの最後の引数
+- `Ctrl+R` - コマンド履歴検索
+- `Ctrl+L` - 画面クリア（`clear`と同じ）
+
+## パッケージ管理
+
+**mac（Homebrew）**
+- `brew install package` - パッケージインストール
+- `brew update && brew upgrade` - アップデート
+- `brew list` - インストール済み一覧
+
+**Windows（PowerShell/WSL）**
+- WSL環境なら: `apt update && apt install package`
+- PowerShellなら: `winget install package`
+
+## エイリアス設定例
+
+`~/.bashrc`や`~/.zshrc`に追加すると便利：
+```bash
+alias ll='ls -la'
+alias la='ls -A'
+alias grep='grep --color=auto'
+alias ..='cd ..'
+alias ...='cd ../..'
+```
+
+これらのコマンドを覚えておくと、日常的な作業が格段に効率化されます。特にパイプ（`|`）を使った組み合わせに慣れると、複雑な処理も一行で実行できるようになります。
